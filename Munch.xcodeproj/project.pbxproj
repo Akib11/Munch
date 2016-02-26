@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A360481D41CB35BD4106FEA9 /* libPods-Munch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C380D7F75DF1576AAA529B55 /* libPods-Munch.a */; };
 		E11961481C7C8A1300AC6612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11961471C7C8A1300AC6612 /* main.m */; };
 		E119614B1C7C8A1400AC6612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E119614A1C7C8A1400AC6612 /* AppDelegate.m */; };
 		E119614E1C7C8A1400AC6612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E119614D1C7C8A1400AC6612 /* ViewController.m */; };
 		E11961511C7C8A1400AC6612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E119614F1C7C8A1400AC6612 /* Main.storyboard */; };
 		E11961531C7C8A1400AC6612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11961521C7C8A1400AC6612 /* Assets.xcassets */; };
 		E11961561C7C8A1400AC6612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11961541C7C8A1400AC6612 /* LaunchScreen.storyboard */; };
+		E167353A1C807997008AE739 /* DetailVenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16735391C807997008AE739 /* DetailVenueViewController.m */; };
+		E167353C1C807B82008AE739 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167353B1C807B82008AE739 /* MapKit.framework */; };
+		E167353F1C808DEB008AE739 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E167353E1C808DEB008AE739 /* WebViewController.m */; };
+		E19021E71C7F1EAB00B35287 /* FourSquareHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E19021E61C7F1EAB00B35287 /* FourSquareHTTPClient.m */; };
+		E19021E91C7F5C1B00B35287 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19021E81C7F5C1B00B35287 /* CoreLocation.framework */; };
+		E1D0E69A1C7DCD4700EEBD2B /* Screen Shot 2016-02-24 at 11.36.10.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D0E6991C7DCD4700EEBD2B /* Screen Shot 2016-02-24 at 11.36.10.png */; };
+		E1E546521C7F8D810030FDD4 /* SCCornerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E546511C7F8D810030FDD4 /* SCCornerCollectionViewCell.m */; };
+		E1E546551C7F8D8E0030FDD4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E546541C7F8D8E0030FDD4 /* UIColor+Hex.m */; };
+		E1E546581C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E546571C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.m */; };
+		E1E5465B1C7F90680030FDD4 /* VenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E5465A1C7F90680030FDD4 /* VenuesViewController.m */; };
+		E1F2F2E31C7E7A4B007AC095 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2DA1C7E7A4B007AC095 /* 1.png */; };
+		E1F2F2E41C7E7A4B007AC095 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2DB1C7E7A4B007AC095 /* 2.png */; };
+		E1F2F2E51C7E7A4B007AC095 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2DC1C7E7A4B007AC095 /* 3.png */; };
+		E1F2F2E61C7E7A4B007AC095 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2DD1C7E7A4B007AC095 /* 5.png */; };
+		E1F2F2E71C7E7A4B007AC095 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2DE1C7E7A4B007AC095 /* 6.png */; };
+		E1F2F2E81C7E7A4B007AC095 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2DF1C7E7A4B007AC095 /* 8.png */; };
+		E1F2F2E91C7E7A4B007AC095 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2E01C7E7A4B007AC095 /* 17.png */; };
+		E1F2F2EA1C7E7A4B007AC095 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2E11C7E7A4B007AC095 /* 20.png */; };
+		E1F2F2EB1C7E7A4B007AC095 /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F2F2E21C7E7A4B007AC095 /* 32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62E66E63A50D2808127C1D4D /* Pods-Munch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Munch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Munch/Pods-Munch.release.xcconfig"; sourceTree = "<group>"; };
+		B498A793076B7E76A1667E4C /* Pods-Munch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Munch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Munch/Pods-Munch.debug.xcconfig"; sourceTree = "<group>"; };
+		C380D7F75DF1576AAA529B55 /* libPods-Munch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Munch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11961431C7C8A1300AC6612 /* Munch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11961471C7C8A1300AC6612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E11961491C7C8A1400AC6612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +49,32 @@
 		E11961521C7C8A1400AC6612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11961551C7C8A1400AC6612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11961571C7C8A1400AC6612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16735381C807997008AE739 /* DetailVenueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVenueViewController.h; sourceTree = "<group>"; };
+		E16735391C807997008AE739 /* DetailVenueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVenueViewController.m; sourceTree = "<group>"; };
+		E167353B1C807B82008AE739 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E167353D1C808DEB008AE739 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E167353E1C808DEB008AE739 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		E19021E51C7F1EAB00B35287 /* FourSquareHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareHTTPClient.h; sourceTree = "<group>"; };
+		E19021E61C7F1EAB00B35287 /* FourSquareHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareHTTPClient.m; sourceTree = "<group>"; };
+		E19021E81C7F5C1B00B35287 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E1D0E6991C7DCD4700EEBD2B /* Screen Shot 2016-02-24 at 11.36.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-02-24 at 11.36.10.png"; sourceTree = "<group>"; };
+		E1E546501C7F8D810030FDD4 /* SCCornerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCornerCollectionViewCell.h; sourceTree = "<group>"; };
+		E1E546511C7F8D810030FDD4 /* SCCornerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCornerCollectionViewCell.m; sourceTree = "<group>"; };
+		E1E546531C7F8D8E0030FDD4 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E1E546541C7F8D8E0030FDD4 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E1E546561C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		E1E546571C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		E1E546591C7F90680030FDD4 /* VenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuesViewController.h; sourceTree = "<group>"; };
+		E1E5465A1C7F90680030FDD4 /* VenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuesViewController.m; sourceTree = "<group>"; };
+		E1F2F2DA1C7E7A4B007AC095 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E1F2F2DB1C7E7A4B007AC095 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E1F2F2DC1C7E7A4B007AC095 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E1F2F2DD1C7E7A4B007AC095 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E1F2F2DE1C7E7A4B007AC095 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E1F2F2DF1C7E7A4B007AC095 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		E1F2F2E01C7E7A4B007AC095 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		E1F2F2E11C7E7A4B007AC095 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		E1F2F2E21C7E7A4B007AC095 /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +82,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E167353C1C807B82008AE739 /* MapKit.framework in Frameworks */,
+				E19021E91C7F5C1B00B35287 /* CoreLocation.framework in Frameworks */,
+				A360481D41CB35BD4106FEA9 /* libPods-Munch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81576A5ABA37A7CA73F844C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B498A793076B7E76A1667E4C /* Pods-Munch.debug.xcconfig */,
+				62E66E63A50D2808127C1D4D /* Pods-Munch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C0814ECF6578F60C289F866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E167353B1C807B82008AE739 /* MapKit.framework */,
+				E19021E81C7F5C1B00B35287 /* CoreLocation.framework */,
+				C380D7F75DF1576AAA529B55 /* libPods-Munch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E119613A1C7C8A1300AC6612 = {
 			isa = PBXGroup;
 			children = (
 				E11961451C7C8A1300AC6612 /* Munch */,
 				E11961441C7C8A1300AC6612 /* Products */,
+				81576A5ABA37A7CA73F844C9 /* Pods */,
+				9C0814ECF6578F60C289F866 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +131,19 @@
 		E11961451C7C8A1300AC6612 /* Munch */ = {
 			isa = PBXGroup;
 			children = (
+				E19021E41C7F1E5300B35287 /* Images */,
 				E11961491C7C8A1400AC6612 /* AppDelegate.h */,
 				E119614A1C7C8A1400AC6612 /* AppDelegate.m */,
+				E19021E51C7F1EAB00B35287 /* FourSquareHTTPClient.h */,
+				E19021E61C7F1EAB00B35287 /* FourSquareHTTPClient.m */,
 				E119614C1C7C8A1400AC6612 /* ViewController.h */,
 				E119614D1C7C8A1400AC6612 /* ViewController.m */,
+				E1E546591C7F90680030FDD4 /* VenuesViewController.h */,
+				E1E5465A1C7F90680030FDD4 /* VenuesViewController.m */,
+				E16735381C807997008AE739 /* DetailVenueViewController.h */,
+				E16735391C807997008AE739 /* DetailVenueViewController.m */,
+				E167353D1C808DEB008AE739 /* WebViewController.h */,
+				E167353E1C808DEB008AE739 /* WebViewController.m */,
 				E119614F1C7C8A1400AC6612 /* Main.storyboard */,
 				E11961521C7C8A1400AC6612 /* Assets.xcassets */,
 				E11961541C7C8A1400AC6612 /* LaunchScreen.storyboard */,
@@ -79,6 +161,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E19021E41C7F1E5300B35287 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E1E546561C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.h */,
+				E1E546571C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.m */,
+				E1E546501C7F8D810030FDD4 /* SCCornerCollectionViewCell.h */,
+				E1E546511C7F8D810030FDD4 /* SCCornerCollectionViewCell.m */,
+				E1E546531C7F8D8E0030FDD4 /* UIColor+Hex.h */,
+				E1E546541C7F8D8E0030FDD4 /* UIColor+Hex.m */,
+				E1F2F2DA1C7E7A4B007AC095 /* 1.png */,
+				E1F2F2DB1C7E7A4B007AC095 /* 2.png */,
+				E1F2F2DC1C7E7A4B007AC095 /* 3.png */,
+				E1F2F2DD1C7E7A4B007AC095 /* 5.png */,
+				E1F2F2DE1C7E7A4B007AC095 /* 6.png */,
+				E1F2F2DF1C7E7A4B007AC095 /* 8.png */,
+				E1F2F2E01C7E7A4B007AC095 /* 17.png */,
+				E1F2F2E11C7E7A4B007AC095 /* 20.png */,
+				E1F2F2E21C7E7A4B007AC095 /* 32.png */,
+				E1D0E6991C7DCD4700EEBD2B /* Screen Shot 2016-02-24 at 11.36.10.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E119615A1C7C8A1400AC6612 /* Build configuration list for PBXNativeTarget "Munch" */;
 			buildPhases = (
+				05810E57408A4B555E97CC3E /* Check Pods Manifest.lock */,
 				E119613F1C7C8A1300AC6612 /* Sources */,
 				E11961401C7C8A1300AC6612 /* Frameworks */,
 				E11961411C7C8A1300AC6612 /* Resources */,
+				4F0B9A7FCE841CFB9FE86C76 /* Embed Pods Frameworks */,
+				06E542CDECD50147361BB40B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +244,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F2F2EB1C7E7A4B007AC095 /* 32.png in Resources */,
+				E1F2F2EA1C7E7A4B007AC095 /* 20.png in Resources */,
+				E1F2F2E81C7E7A4B007AC095 /* 8.png in Resources */,
+				E1F2F2E91C7E7A4B007AC095 /* 17.png in Resources */,
 				E11961561C7C8A1400AC6612 /* LaunchScreen.storyboard in Resources */,
+				E1F2F2E41C7E7A4B007AC095 /* 2.png in Resources */,
+				E1F2F2E51C7E7A4B007AC095 /* 3.png in Resources */,
+				E1F2F2E71C7E7A4B007AC095 /* 6.png in Resources */,
 				E11961531C7C8A1400AC6612 /* Assets.xcassets in Resources */,
+				E1F2F2E31C7E7A4B007AC095 /* 1.png in Resources */,
+				E1F2F2E61C7E7A4B007AC095 /* 5.png in Resources */,
 				E11961511C7C8A1400AC6612 /* Main.storyboard in Resources */,
+				E1D0E69A1C7DCD4700EEBD2B /* Screen Shot 2016-02-24 at 11.36.10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05810E57408A4B555E97CC3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		06E542CDECD50147361BB40B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Munch/Pods-Munch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0B9A7FCE841CFB9FE86C76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Munch/Pods-Munch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E119613F1C7C8A1300AC6612 /* Sources */ = {
@@ -150,8 +316,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E119614E1C7C8A1400AC6612 /* ViewController.m in Sources */,
+				E167353F1C808DEB008AE739 /* WebViewController.m in Sources */,
+				E1E546551C7F8D8E0030FDD4 /* UIColor+Hex.m in Sources */,
+				E19021E71C7F1EAB00B35287 /* FourSquareHTTPClient.m in Sources */,
 				E119614B1C7C8A1400AC6612 /* AppDelegate.m in Sources */,
+				E1E546521C7F8D810030FDD4 /* SCCornerCollectionViewCell.m in Sources */,
+				E1E546581C7F8DB20030FDD4 /* StickCollectionViewFlowLayout.m in Sources */,
+				E1E5465B1C7F90680030FDD4 /* VenuesViewController.m in Sources */,
 				E11961481C7C8A1300AC6612 /* main.m in Sources */,
+				E167353A1C807997008AE739 /* DetailVenueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +432,11 @@
 		};
 		E119615B1C7C8A1400AC6612 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B498A793076B7E76A1667E4C /* Pods-Munch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Munch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.AkibiOS.Munch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +445,11 @@
 		};
 		E119615C1C7C8A1400AC6612 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E66E63A50D2808127C1D4D /* Pods-Munch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Munch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.AkibiOS.Munch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +475,7 @@
 				E119615C1C7C8A1400AC6612 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

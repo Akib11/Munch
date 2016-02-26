@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FourSquareHTTPClient.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<FourSquareHTTPClientDelegate,CLLocationManagerDelegate>
 
+@property (nonatomic, strong) CLLocationManager *locationManager;
 
 @end
 
