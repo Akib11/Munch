@@ -1,6 +1,6 @@
 # Munch
 
-![alt tag](http://www.akibios.co.uk/img/portfolio/munch.png)
+![alt tag](https://www.akibmakesapps.co.uk/img/portfolio/munch.png)
 
 ##Descripiton
 "Munch" App has been designed for you to discover nearby restaurants, Bars, Cafes etc.
